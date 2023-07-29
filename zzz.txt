@@ -3,4 +3,7 @@ remove templates/delete-me.html.twig
 remove .git and in the new project directory add a new one
     git init
     git remote add origin https://...
+    cd new_project_dir/
+    git clone https://github.com/dancostinel/empty-symfony6-project.git .
+    git checkout master
 in xampp this /delete-me route should be accessed as: http://localhost:180/empty-symfony6-project/public/index.php/delete-me
